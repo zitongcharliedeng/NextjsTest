@@ -1,7 +1,7 @@
-import Head from 'next/head'
+import Head from "next/head"
 import styles from '@/styles/Home.module.css'
 
-export default function Home() {
+const AboutUs = () => {
   return (
     <>
       <Head>
@@ -12,9 +12,11 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div>
-          Hello guys! This is the index page
+          Hello guys! This is the aboutUs page
         </div>
       </main>
     </>
   )
 }
+
+export default AboutUs
